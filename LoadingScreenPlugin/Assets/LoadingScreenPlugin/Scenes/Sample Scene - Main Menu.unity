@@ -1089,7 +1089,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5792357597259251498, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5792357597433528626, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
       propertyPath: m_Name
@@ -1178,6 +1178,18 @@ PrefabInstance:
     - target: {fileID: 5792357597433528655, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948890800048395360, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948890800048395360, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948890800048395360, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ecd531bdba5834c970f6e078f42aa1, type: 3}
