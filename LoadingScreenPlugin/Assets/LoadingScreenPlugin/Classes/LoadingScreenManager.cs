@@ -13,10 +13,12 @@ public class LoadingScreenManager : MonoBehaviour
     [SerializeField, Foldout("Components")] private LoadingBar loadingBar = null;
     [SerializeField, Foldout("Components")] private Spinner spinner = null;
     [SerializeField, Foldout("Components")] private LoadingMessage loadingMessage = null;
+    [SerializeField, Foldout("Components")] private GameObject animatedCharacter = null;
 
     [SerializeField, Foldout("Settings")] private bool useLoadingBar = true;
     [SerializeField, Foldout("Settings")] private bool useSpinner = true;
     [SerializeField, Foldout("Settings")] private bool useLoadingMessage = true;
+    [SerializeField, Foldout("Settings")] private bool useAnimatedCharacter = true;
     [SerializeField, Foldout("Settings")] private LoadingMessagesData loadingMessages = null;
 
     private AsyncOperation currentLoadOp = null;
@@ -136,6 +138,7 @@ public class LoadingScreenManager : MonoBehaviour
         loadingBar.gameObject.SetActive(useLoadingBar);
         spinner.gameObject.SetActive(useSpinner);
         loadingMessage.gameObject.SetActive(useLoadingMessage);
+        animatedCharacter.SetActive(useAnimatedCharacter);
     }
 
     #region Debug

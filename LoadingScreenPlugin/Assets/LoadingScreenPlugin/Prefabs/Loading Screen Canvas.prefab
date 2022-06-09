@@ -178,9 +178,11 @@ MonoBehaviour:
   loadingBar: {fileID: 6854972949319546055}
   spinner: {fileID: 4792296685598251070}
   loadingMessage: {fileID: 5682117137989653106}
+  animatedCharacter: {fileID: 4155459907673494637}
   useLoadingBar: 1
   useSpinner: 1
   useLoadingMessage: 1
+  useAnimatedCharacter: 1
   loadingMessages: {fileID: 11400000, guid: c178bd9c3b905d5459e72267a47a79be, type: 2}
 --- !u!1001 &498317169794275553
 PrefabInstance:
@@ -659,6 +661,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44d8fabbee2e3c646b109108429e35e6, type: 3}
+--- !u!1 &4155459907673494637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6557675884624701345, guid: 44d8fabbee2e3c646b109108429e35e6, type: 3}
+  m_PrefabInstance: {fileID: 7109674997868852172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7569696972941430790 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 839451802900685770, guid: 44d8fabbee2e3c646b109108429e35e6, type: 3}

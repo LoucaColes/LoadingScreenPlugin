@@ -9,7 +9,7 @@ namespace LSP.LS.Data
 
         public string GetRandomMessage()
         {
-            int index = Random.Range(0, loadingMessages.Length - 1);
+            int index = Random.Range(0, loadingMessages.Length);
             return loadingMessages[index];
         }
     }
